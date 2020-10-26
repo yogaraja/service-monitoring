@@ -1,4 +1,4 @@
-# service-monitoring
+# Service-Monitoring
 
 # Requirements:
 * A service written in python or golang that queries 2 urls (https://httpstat.us/503 & https://httpstat.us/200).
