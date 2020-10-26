@@ -10,14 +10,14 @@
     sample_external_url_response_ms{url="https://httpstat.us/503 "}  = [value]
     sample_external_url_up{url="https://httpstat.us/200 "}  = 1
 
-* [How to build & deploy on desktop](#how-to-build)
+# [How to build & deploy on desktop](#how-to-build)
     * [Build the Image for the python app](#build-steps)
     * [Run Prometheus & Grafana](#run-prometheus-grafana)    
     * [Run the python app](#run-python-app) 
     * [Urls to access](#url-to-access) 
     * [Generate Test Data](#generate-metrics) 
 
-* [How to deploy on Kubernetes](#how-to-deploy)
+# [How to deploy on Kubernetes](#how-to-deploy)
 
 
 ## How to build & deploy on desktop
