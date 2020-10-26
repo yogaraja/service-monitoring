@@ -63,3 +63,9 @@ so that we can generate some metrics over a time interval
 ```
 
 ## How to deploy on Kubernetes
+```sh
+cd kuberenetes_deployment/
+kubectl apply -f service-monitoring-deployment.yaml #deployment-spec for monitoring service
+kubectl apply -f prometheus-deployment.yaml #deployment-spec for prometheus
+kubectl apply -f grafana-deployment.yaml #deployment-spec for grafana
+```
