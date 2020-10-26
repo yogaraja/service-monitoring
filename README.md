@@ -11,11 +11,11 @@
     sample_external_url_up{url="https://httpstat.us/200 "}  = 1
 
 * [How to build & deploy on desktop](#how-to-build--deploy-on-desktop)
-    * [Build the Image for the python app](#build-steps)
-    * [Run Prometheus & Grafana](#run-prometheus-grafana)    
-    * [Run the python app](#run-python-app) 
-    * [Urls to access](#url-to-access) 
-    * [Generate Test Data](#generate-metrics) 
+    * [Build the Image for the python app](#build-the-image-for-the-python-app)
+    * [Run Prometheus & Grafana](#run-prometheus--grafana)    
+    * [Run the python app](#run-the-python-app) 
+    * [Urls to access](#urls-to-access) 
+    * [Generate Test Data](#generate-test-data) 
 
 * [How to deploy on Kubernetes](#how-to-deploy)
 
