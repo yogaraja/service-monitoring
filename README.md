@@ -25,6 +25,7 @@
 ### Build the Image for the python app
 
 ```sh
+cd service-monitoring/applications
 docker build -t service-monitoring .
 ```
 
