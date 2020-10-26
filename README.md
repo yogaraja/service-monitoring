@@ -1,6 +1,16 @@
 # Service-Monitoring
 
-# Requirements:
+* [Requirements](#requirements)
+* [How to build & deploy on desktop](#how-to-build--deploy-on-desktop)
+    * [Build the Image for the python app](#build-the-image-for-the-python-app)
+    * [Run Prometheus & Grafana](#run-prometheus--grafana)    
+    * [Run the python app](#run-the-python-app) 
+    * [Urls to access](#urls-to-access) 
+    * [Generate Test Data](#generate-test-data) 
+* [How to deploy on Kubernetes](#how-to-deploy-on-Kubernetes)
+
+
+## Requirements
 * A service written in python or golang that queries 2 urls (https://httpstat.us/503 & https://httpstat.us/200).
 * The service will check the external urls (https://httpstat.us/503 & https://httpstat.us/200 ) are up (based on http status code 200) and response time in milliseconds
 * The service will run a simple http service that produces  metrics (on /metrics) and output a prometheus format when hitting the service /metrics url
@@ -9,15 +19,6 @@
     sample_external_url_up{url="https://httpstat.us/503 "}  = 0
     sample_external_url_response_ms{url="https://httpstat.us/503 "}  = [value]
     sample_external_url_up{url="https://httpstat.us/200 "}  = 1
-
-* [How to build & deploy on desktop](#how-to-build--deploy-on-desktop)
-    * [Build the Image for the python app](#build-the-image-for-the-python-app)
-    * [Run Prometheus & Grafana](#run-prometheus--grafana)    
-    * [Run the python app](#run-the-python-app) 
-    * [Urls to access](#urls-to-access) 
-    * [Generate Test Data](#generate-test-data) 
-
-* [How to deploy on Kubernetes](#how-to-deploy-on-Kubernetes)
 
 
 ## How to build & deploy on desktop
