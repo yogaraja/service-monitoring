@@ -17,7 +17,7 @@
     * [Urls to access](#urls-to-access) 
     * [Generate Test Data](#generate-test-data) 
 
-* [How to deploy on Kubernetes](#how-to-deploy)
+* [How to deploy on Kubernetes](#how-to-deploy-on-Kubernetes)
 
 
 ## How to build & deploy on desktop
