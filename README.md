@@ -66,6 +66,8 @@ so that we can generate some metrics over a time interval
 ```sh
 cd kuberenetes_deployment/
 #Deployment-spec for monitoring service
+On building the image for the python application, you can push to public registry (gcr/docker ../etc). Update the image value in spec of the container in the yaml
+file service-monitoring-deployment.yaml before executing the deployment
 kubectl apply -f service-monitoring-deployment.yaml
 
 #Deployment-spec for prometheus
